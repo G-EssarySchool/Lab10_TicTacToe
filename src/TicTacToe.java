@@ -1,9 +1,24 @@
+import java.util.Scanner;
+
 public class TicTacToe {
     //Create board outside of main method
     static String [][] board = new String[3][3];
 
+    //Game simulation happens here
     public static void main(String[] args) {
-      //Game simulation happens here
+        //Variables:
+        Scanner scan = new Scanner(System.in);
+        String player1 = "X";
+        String player2 = "O";
+        int p1row;
+        int p1col;
+        int p2row;
+        int p2col;
+        boolean player1Valid;
+        boolean player2Valid;
+        boolean gameOver;
+        boolean playAgain;
+
     }
 
     //Helper methods go here
